@@ -25,6 +25,5 @@ foreach ($meses as $mes) {
     echo '<option value="'.$mes.'">'.$mes.'</option>';
 }
 echo "</select>";
-
 ?>
 
