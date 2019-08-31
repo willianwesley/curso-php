@@ -15,11 +15,12 @@ $meses = array(
     "Dezembro"
 );
 
-echo "<select>";
-foreach ($meses as $mes) {
-    echo '<option value="'.$mes.'">'.$mes.'</option>';
+
+foreach ($meses as $index => $mes) {
+    echo "Indice: ". $index. "<br>";
+    echo "O mês é: ".$mes ."<br>";
 }
-echo "</select>";
+
 
 ?>
 
