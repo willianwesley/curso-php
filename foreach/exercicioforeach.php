@@ -16,7 +16,9 @@ foreach ($_GET as $key => $value) {
         "Setembro",
         "Outubro",
         "Novembro",
-        "Dezembro"
+        "Dezembro",
+        "Rebeca",
+        "Gordinha"
     );
     array_push($meses,$value);
 }
