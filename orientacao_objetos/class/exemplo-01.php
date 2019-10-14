@@ -8,7 +8,7 @@ class Pessoa {
     }
 }
 
-$willian = new Pessoa();
+$willian = new Pessoa();//Instancia / Criação do objeto
 $willian->nome = "Willian";
 echo $willian->falar();
 
